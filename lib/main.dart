@@ -53,16 +53,19 @@ class MyApp extends StatelessWidget {
              alignment: Alignment.center,
            ),
            Container(
-             color: Colors.orange[300],
+             color: Colors.purple,
              child: Text(
                'Transfer',
-               style: TextStyle(fontSize:17, color: Colors.black ),
+               style: TextStyle(fontSize:17, color: Colors.black, fontWeight: FontWeight.bold ),
              ),
              height: 45.0,
              width: 400.0,
              alignment: Alignment.centerLeft,
            ),
            Container(
+             decoration: BoxDecoration(
+                   border: Border.all(color: Colors.green)
+                   ),
              child: Row(children: [
                Container(
                  child: Image(image: NetworkImage('https://cdn.medcom.id/dynamic/content/2020/07/20/1166802/7QLnNcGsE0.jpg?w=700'),
@@ -71,19 +74,22 @@ class MyApp extends StatelessWidget {
                  //height: 80.0,
                ),
                Container(
-                 color : Colors.white,
+                 
                  child : Text(
                    'Pique Bilang Wasit Untungkan Madrid, Koeman  Tepok Jidat',
                    style: TextStyle(fontSize: 15, color: Colors.black),
                  ),
                  alignment: Alignment.center,
-                 width: 200.0,
+                 width: 178.0,
                ),
              ],
              ),
            ),
            Container(
-             color: Colors.white,
+             decoration: BoxDecoration(
+                   border: Border.all(color: Colors.green)
+                   ),
+             
              child: Text(
                'Barcelona Feb 13, 2021',
                style: TextStyle(fontSize: 15),
@@ -92,6 +98,9 @@ class MyApp extends StatelessWidget {
              alignment: Alignment.centerLeft,
            ),
            Container(
+             decoration: BoxDecoration(
+                   border: Border.all(color: Colors.green)
+                   ),
              child: Row(children: [
                Container(
                  child: Image(image: NetworkImage('https://cdn.medcom.id/dynamic/content/2020/07/20/1166802/7QLnNcGsE0.jpg?w=700'),
@@ -100,22 +109,20 @@ class MyApp extends StatelessWidget {
                  //height: 80.0,
                ),
                Container(
-                //  decoration: BoxDecoration(
-                //    border: Border.all(color: Colors.green)
-                //    ),
-                   color : Colors.white,
                  child : Text(
                    'Pique Bilang Wasit Untungkan Madrid, Koeman  Tepok Jidat',
                    style: TextStyle(fontSize: 15, color: Colors.black),
                  ),
                  alignment: Alignment.center,
-                 width: 200.0,
+                 width: 178.0,
                ),
              ],
              ),
            ),
            Container(
-             color: Colors.white,
+              decoration: BoxDecoration(
+                   border: Border.all(color: Colors.green)
+                   ),
              child: Text(
                'Barcelona Feb 13, 2021',
                style: TextStyle(fontSize: 15),
@@ -124,6 +131,9 @@ class MyApp extends StatelessWidget {
              alignment: Alignment.centerLeft,
            ),
            Container(
+             decoration: BoxDecoration(
+                   border: Border.all(color: Colors.green)
+                   ),
              child: Row(children: [
                Container(
                  child: Image(image: NetworkImage('https://cdn.medcom.id/dynamic/content/2020/07/20/1166802/7QLnNcGsE0.jpg?w=700'),
@@ -132,22 +142,22 @@ class MyApp extends StatelessWidget {
                  //height: 80.0,
                ),
                Container(
-                //  decoration: BoxDecoration(
-                //    border: Border.all(color: Colors.green)
-                //    ),
-                   color : Colors.white,
+                   
                  child : Text(
                    'Pique Bilang Wasit Untungkan Madrid, Koeman  Tepok Jidat',
                    style: TextStyle(fontSize: 15, color: Colors.black),
                  ),
                  alignment: Alignment.center,
-                 width: 200.0,
+                 width: 178.0,
                ),
              ],
              ),
            ),
              Container(
-             color: Colors.white,
+               decoration: BoxDecoration(
+                   border: Border.all(color: Colors.green)
+                   ),
+             
              child: Text(
                'Barcelona Feb 13, 2021',
                style: TextStyle(fontSize: 15),
